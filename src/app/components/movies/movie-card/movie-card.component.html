@@ -1,0 +1,8 @@
+<h2 class="pageTitle">Les films en Français</h2>
+<div class="movieContainer" *ngFor="let movie of moviesArray">
+    <div class="movieItem" *ngFor="let mov of movie">
+        <img src="{{ baseUrlImage + mov.poster_path}}" alt="{{ baseUrlImage + mov.backdrop_path }}">
+        <p class="itemTitle">{{ mov.title }}</p>
+        <p class="itemDescription">{{ mov.overview }}</p>
+    </div>
+</div>

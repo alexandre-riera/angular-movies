@@ -1,0 +1,31 @@
+.pageTitle{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.movieContainer{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.movieItem{
+    text-align: center;
+    background-color: lightseagreen;
+    max-width: 280px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.itemTitle{
+    font-weight: bold;
+    font-size: 22px;
+}
+.itemDescription{
+    text-align: left;
+}
+.movieItem img{
+    width: 150px;
+}
